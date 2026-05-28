@@ -1,0 +1,23 @@
+{
+  "name": "sit223-devops-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node app.js",
+  "test": "jest",
+  "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.4.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
